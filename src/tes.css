@@ -1,0 +1,19 @@
+.fitur-card{
+	@apply relative overflow-hidden flex flex-col w-90 border rounded-4xl p-5 cursor-pointer card glass bg-blue-50 transition-all duration-300;
+}
+
+/* Glowing cursor effect overlay */
+.fitur-card::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: radial-gradient(180px circle at var(--glow-x, 50%) var(--glow-y, 50%), rgb(59 130 246 / 0.35), rgb(59 130 246 / 0.12) 40%, transparent 70%);
+	filter: blur(10px);
+	opacity: var(--glow-opacity, 0);
+	transition: opacity 150ms ease;
+	pointer-events: none;
+}
+
+.fitur-card:hover {
+	--glow-opacity: 1;
+}

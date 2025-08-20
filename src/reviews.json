@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "bg": "bg-blue-100",
+    "avatar": "w1.png",
+    "univ": "Universitas Indonesia",
+    "review": "Kursus ini benar-benar mengubah cara saya menggunakan LinkedIn. Sekarang saya sudah mendapatkan 3 job interview dalam 2 bulan!"
+  },
+  {
+    "name": "Ahmad Rahman", 
+    "bg": "bg-red-100",
+    "avatar": "p1.png",
+    "univ": "Universitas Brawijaya",
+    "review": "Materi networking-nya keren banget, saya jadi tahu cara membangun koneksi yang efektif. Profile LinkedIn saya sekarang lebih profesional."
+  },
+  {
+    "name": "Diana Chen",
+    "bg": "bg-amber-100",
+    "avatar": "w2.png",
+    "univ": "Universitas Gadjah Mada", 
+    "review": "Sebagai HR, saya sangat terkesan dengan teknik personal branding yang diajarkan. Sangat praktis dan mudah diterapkan."
+  },
+  {
+    "name": "Budi Santoso",
+    "bg": "bg-yellow-100",
+    "avatar": "p2.png",
+    "univ": "Universitas Indonesia",
+    "review": "Content creation tips-nya sangat berguna. Sekarang postingan saya lebih engaging dan banyak yang like dan comment."
+  },
+  {
+    "name": "Maya Sari",
+    "bg": "bg-lime-100",
+    "avatar": "w3.png",
+    "univ": "Universitas Negeri Surabaya",
+    "review": "Interview hacks-nya sangat membantu! Saya berhasil lolos interview di perusahaan impian berkat tips dari kursus ini."
+  },
+  {
+    "name": "Rizki Pratama",
+    "bg": "bg-teal-100",
+    "avatar": "p3.png",
+    "univ": "Universitas Ciputra",
+    "review": "Strategi job hunting yang diajarkan sangat efektif. Saya mendapatkan 5 job offer dalam 3 bulan setelah mengikuti kursus."
+  },
+  {
+    "name": "Nina Wijaya",
+    "bg": "bg-green-100",
+    "avatar": "w4.png",
+    "univ": "Universitas Negeri Surabaya",
+    "review": "Personal branding mastery-nya luar biasa! Sekarang saya dikenal sebagai expert di bidang UX design di LinkedIn."
+  },
+  {
+    "name": "David Lee",
+    "bg": "bg-purple-100",
+    "avatar": "p4.png",
+    "univ": "Universitas Negeri Malang",
+    "review": "Networking tips-nya sangat praktis. Saya berhasil memperluas network profesional dan mendapatkan klien baru."
+  }
+]
