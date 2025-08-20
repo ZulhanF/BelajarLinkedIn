@@ -14,22 +14,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Saya gunakan js untuk duplikasi review supaya hemat tempat di file html
         const createReviewCard = (review) => {
             const reviewCard = document.createElement('div');
-            reviewCard.className = `testimoni-card w-75 ${review.bg} rounded-2xl p-5 h-37 flex-shrink-0`;
+            reviewCard.className = `testimoni-card w-64 sm:w-75 ${review.bg} rounded-2xl p-4 md:p-5 h-auto md:h-37 flex-shrink-0`;
             reviewCard.innerHTML = `
                 <div class="profile flex gap-2">
                     <img
                         src="${review.avatar}"
                         alt="profile"
-                        class="w-10 h-10 rounded-full"
+                        class="w-8 h-8 md:w-10 md:h-10 rounded-full"
                     />
                     <div class="profile-text">
-                        <h1 class="text-sm font-medium">${review.name}</h1>
+                        <h1 class="text-xs md:text-sm font-medium">${review.name}</h1>
                         <h2 class="text-xs text-gray-500 mt-0.5">
                             ${review.univ}
                         </h2>
                     </div>
                 </div>
-                <p class="text-xs text-gray-500 mt-2">
+                <p class="text-xs text-gray-500 mt-2 leading-relaxed">
                     ${review.review}
                 </p>
             `;

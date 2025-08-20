@@ -36,7 +36,7 @@
 
 /* Saya apply tailwind disini supaya tidak perlu pengulangan di file html */
 .fitur-card{
-	@apply relative overflow-hidden flex flex-col w-90 border rounded-4xl p-5 cursor-pointer card glass transition-all duration-300;
+	@apply relative overflow-hidden flex flex-col w-full md:w-90 border rounded-2xl md:rounded-4xl p-4 md:p-5 cursor-pointer card glass transition-all duration-300;
 }
 
 .fitur-card:hover {
@@ -46,6 +46,46 @@
 
 .fitur-card:hover p {
     @apply text-neutral-200;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        order: 2;
+    }
+    
+    .hero-img {
+        order: 1;
+    }
+    
+    .info-container ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .list-fitur {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .list-fitur {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .list-fitur {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.75rem;
+    }
 }
 
 
